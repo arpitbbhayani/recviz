@@ -1,0 +1,6 @@
+venv
+*.pyc
+*.pyo
+dist
+build
+recviz.egg-info
