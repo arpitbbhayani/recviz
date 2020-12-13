@@ -36,7 +36,7 @@ def recviz(fn):
         recursion_level += 1
 
         # invoke the wrapped function
-        return_value = fn(*ar, **kw)
+        return_value = fn(*args, **kwargs)
 
         # post function evaluation we decrease the recursion level by 1
         recursion_level -= 1

@@ -8,7 +8,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
   name='recviz',
-  version='0.0.2',
+  version='0.0.3',
   description='Simple visualization for recursive functions in Python.',
   long_description=long_description,
   long_description_content_type='text/markdown',
