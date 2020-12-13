@@ -25,5 +25,21 @@ def fib(n):
   # every number is summation of the previous two
   return fib(n - 1) + fib(n - 2)
 
+
 fib(3)
+```
+
+Upon decorating and invoking the function, the output is
+
+```
+  -> fib(3)
+    -> fib(2)
+       -> fib(1)
+       <- 1
+       -> fib(0)
+       <- 1
+    <- 2
+    -> fib(1)
+    <- 1
+ <- 3
 ```
