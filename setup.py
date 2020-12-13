@@ -8,7 +8,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
   name='recviz',
-  version='0.0.1',
+  version='0.0.2',
   description='Simple visualization for recursive functions in Python.',
   long_description=long_description,
   long_description_content_type='text/markdown',
@@ -80,7 +80,7 @@ setup(
   # Similar to `install_requires` above, these must be valid existing
   # projects.
   extras_require={  # Optional
-      'dev': ['check-manifest'],
+      'dev': ['check-manifest', 'autopep8'],
       'test': ['coverage'],
   },
 

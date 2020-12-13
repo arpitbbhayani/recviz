@@ -1,7 +1,14 @@
 from recviz import recviz
 
+
 @recviz
 def fib(n):
-  if n == 0 or n == 1:
-    return 1
+  # base condition mimicking the first two numbers
+  # in the sequence
+  if n == 0: return 0
+  if n == 1: return 1
+
+  # every number is summation of the previous two
   return fib(n - 1) + fib(n - 2)
+
+fib(3)
